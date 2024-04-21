@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("https://cdn.dribbble.com/users/920717/screenshots/5875096/5c448d8569db6529743473.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+  margin-top: 60px;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  /* background-color: rgb(42, 130, 207); */
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 8vmin;
+  color: brown;
+}
+.box:hover {
+  transition: 1s;
+  background-color: transparent;
+}
+.btnStyle {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: rgb(6, 92, 153);
+  color: aliceblue;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 1rem rgba(223, 233, 18, 0.3);
+  margin-left: 20px;
+}
+.btnStyle:hover {
+  scale: 1.1;
+  transition: 0.5s;
+  background-color: azure;
+  color: rgb(6, 92, 153);
+}
+.hide {
+  display: none;
+}
+.x {
+  color: rgb(252, 0, 0);
+  /* font-family: "Jersey 10 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+}
+
+.O {
+  color: rgb(255, 136, 0);
+  /* font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+}
+h1{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 60px;
+  width: 100%;
+  background-color: rgb(155, 89, 182 );
+  color: rgb(241, 196, 15);
+  font-family: "Jersey 25", sans-serif;
+    font-size: 50px;
+}
+#msg {
+  position: static;
+  height: 40px;
+  width: 500px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: transparent;
+  align-items: center;
+  justify-content: left;
+  position: relative;
+  top: 90px;
+  left: 500px;
+  color: rgb(0, 0, 0);
+}
